@@ -1,0 +1,120 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 2017  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+*/
+(header "symbol" (version "1.1"))
+(symbol
+	(rect 16 16 160 224)
+	(text "TimeChange" (rect 5 0 55 12)(font "Arial" ))
+	(text "inst" (rect 8 192 20 204)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "Choose" (rect 0 0 30 12)(font "Arial" ))
+		(text "Choose" (rect 21 27 51 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32)(line_width 1))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "ia1" (rect 0 0 9 12)(font "Arial" ))
+		(text "ia1" (rect 21 43 30 55)(font "Arial" ))
+		(line (pt 0 48)(pt 16 48)(line_width 1))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "ia2" (rect 0 0 10 12)(font "Arial" ))
+		(text "ia2" (rect 21 59 31 71)(font "Arial" ))
+		(line (pt 0 64)(pt 16 64)(line_width 1))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "ia3" (rect 0 0 10 12)(font "Arial" ))
+		(text "ia3" (rect 21 75 31 87)(font "Arial" ))
+		(line (pt 0 80)(pt 16 80)(line_width 1))
+	)
+	(port
+		(pt 0 96)
+		(input)
+		(text "ia4" (rect 0 0 11 12)(font "Arial" ))
+		(text "ia4" (rect 21 91 32 103)(font "Arial" ))
+		(line (pt 0 96)(pt 16 96)(line_width 1))
+	)
+	(port
+		(pt 0 112)
+		(input)
+		(text "ib1" (rect 0 0 9 12)(font "Arial" ))
+		(text "ib1" (rect 21 107 30 119)(font "Arial" ))
+		(line (pt 0 112)(pt 16 112)(line_width 1))
+	)
+	(port
+		(pt 0 128)
+		(input)
+		(text "ib2" (rect 0 0 10 12)(font "Arial" ))
+		(text "ib2" (rect 21 123 31 135)(font "Arial" ))
+		(line (pt 0 128)(pt 16 128)(line_width 1))
+	)
+	(port
+		(pt 0 144)
+		(input)
+		(text "ib3" (rect 0 0 10 12)(font "Arial" ))
+		(text "ib3" (rect 21 139 31 151)(font "Arial" ))
+		(line (pt 0 144)(pt 16 144)(line_width 1))
+	)
+	(port
+		(pt 0 160)
+		(input)
+		(text "ib4" (rect 0 0 11 12)(font "Arial" ))
+		(text "ib4" (rect 21 155 32 167)(font "Arial" ))
+		(line (pt 0 160)(pt 16 160)(line_width 1))
+	)
+	(port
+		(pt 144 32)
+		(output)
+		(text "o1" (rect 0 0 8 12)(font "Arial" ))
+		(text "o1" (rect 115 27 123 39)(font "Arial" ))
+		(line (pt 144 32)(pt 128 32)(line_width 1))
+	)
+	(port
+		(pt 144 48)
+		(output)
+		(text "o2" (rect 0 0 9 12)(font "Arial" ))
+		(text "o2" (rect 114 43 123 55)(font "Arial" ))
+		(line (pt 144 48)(pt 128 48)(line_width 1))
+	)
+	(port
+		(pt 144 64)
+		(output)
+		(text "o3" (rect 0 0 9 12)(font "Arial" ))
+		(text "o3" (rect 114 59 123 71)(font "Arial" ))
+		(line (pt 144 64)(pt 128 64)(line_width 1))
+	)
+	(port
+		(pt 144 80)
+		(output)
+		(text "o4" (rect 0 0 10 12)(font "Arial" ))
+		(text "o4" (rect 113 75 123 87)(font "Arial" ))
+		(line (pt 144 80)(pt 128 80)(line_width 1))
+	)
+	(drawing
+		(rectangle (rect 16 16 128 192)(line_width 1))
+	)
+)
